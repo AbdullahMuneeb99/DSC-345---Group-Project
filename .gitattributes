@@ -1,0 +1,2 @@
+# Preserve the original UCI CSV bytes and its documented checksum.
+data/Steel_industry_data.csv -text whitespace=cr-at-eol
