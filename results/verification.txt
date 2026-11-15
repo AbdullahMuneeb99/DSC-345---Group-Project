@@ -1,0 +1,7 @@
+Verified November 12, 2026
+
+Executed src/run_baselines.py successfully.
+Executed all five notebook code cells sequentially in one Python namespace and captured their actual outputs; Jupyter UI was not used.
+Checked raw CSV SHA-256, all split memberships, unique source row IDs, original target alignment, and no train/test overlap.
+Independently recomputed all test MAE, RMSE, and R2 values from saved predictions using direct NumPy formulas; all matched.
+Inspected all three figure PNGs for readable labels and layout.
