@@ -1,0 +1,57 @@
+{
+  "data_sha256": "9b1cee6f9cb9cd9df2b95814ca90a9a2ff15b7f5f1fba0fae3c643e82072eacc",
+  "n_rows": 35040,
+  "original_columns": 11,
+  "n_train": 24528,
+  "n_test": 10512,
+  "train_start": "2018-01-01 00:00:00",
+  "train_end": "2018-09-13 11:45:00",
+  "test_start": "2018-09-13 12:00:00",
+  "test_end": "2018-12-31 23:45:00",
+  "rows_removed": 0,
+  "missing_values": 0,
+  "duplicate_rows": 0,
+  "expanded_features": [
+    "Usage_kWh",
+    "Lagging_Current_Reactive.Power_kVarh",
+    "Leading_Current_Reactive_Power_kVarh",
+    "Lagging_Current_Power_Factor",
+    "Leading_Current_Power_Factor",
+    "NSM",
+    "Day_of_week",
+    "Load_Type"
+  ],
+  "target": "CO2(tCO2)",
+  "target_units": "Native dataset values; source metadata conflicts with column label.",
+  "target_unique_values": [
+    0.0,
+    0.01,
+    0.02,
+    0.03,
+    0.04,
+    0.05,
+    0.06,
+    0.07
+  ],
+  "target_zero_rows": 20990,
+  "target_negative_rows": 0,
+  "excluded": {
+    "date": "Timestamp sorting",
+    "source_row": "Row alignment",
+    "WeekStatus": "Redundant with Day_of_week",
+    "CO2(tCO2)": "Target"
+  },
+  "flagged_target_rows_retained": 437,
+  "target_iqr_thresholds_training": [
+    -0.03,
+    0.05
+  ],
+  "timestamp_policy": "Parse original timestamps literally and sort chronologically.",
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  }
+}
