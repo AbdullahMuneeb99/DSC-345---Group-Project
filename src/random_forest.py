@@ -1,4 +1,4 @@
-"""Train Random Forest models with usage-only and expanded features."""
+
 from joblib import dump
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor

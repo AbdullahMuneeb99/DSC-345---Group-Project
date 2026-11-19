@@ -1,4 +1,4 @@
-"""One shared scoring method and combined model comparison figures."""
+
 from pathlib import Path
 import argparse
 

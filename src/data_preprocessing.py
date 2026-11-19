@@ -1,4 +1,4 @@
-"""Shared dataset validation, feature definitions, and chronological splitting."""
+
 from pathlib import Path
 import argparse
 import hashlib
